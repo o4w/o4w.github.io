@@ -529,34 +529,34 @@
 
 
 
-// let yeniSatir = "\r\n";
+let yeniSatir = "\r\n";
 
-// let mesaj = "Vize Puanı" + yeniSatir 
-// + "Final Puanı"
-
-
-// let vize = 0;
-// let final = 0;
+let mesaj = "Vize Puanı" + yeniSatir 
++ "Final Puanı"
 
 
-// let vizepuanı = Number(prompt("Vize Puanı Giriniz"));
-// let finalpuanı = Number(prompt("Final Notunuzu Giriniz"));
+let vize = 0;
+let final = 0;
 
-// let sonuc = (vizepuanı*0.4) + (finalpuanı*0.6)
 
-// if(sonuc<=50){
+let vizepuanı = Number(prompt("Vize Puanı Giriniz"));
+let finalpuanı = Number(prompt("Final Notunuzu Giriniz"));
+
+let sonuc = (vizepuanı*0.4) + (finalpuanı*0.6)
+
+if(sonuc<=50){
    
-//     alert("Başarısız" + sonuc)
+    alert("Başarısız" + sonuc)
 
  
-// }
+}
 
-// else if(sonuc>=50){
+else if(sonuc>=50){
 
-//     alert("Başarılı" + sonuc)
+    alert("Başarılı" + sonuc)
 
     
-// }
+}
 
 
        
@@ -569,9 +569,9 @@
 //  }
 
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(json))
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//       .then(response => response.json())
+//       .then(json => console.log(json))
 
 
 
