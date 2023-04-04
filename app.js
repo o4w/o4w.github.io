@@ -15,7 +15,7 @@ function hesapla() {
    
 
     // sonuçları göster
-    document.getElementById("sonuclar").innerHTML = `Sayı 1, Sayı 2 ve Sayı 3'ün çarpımı ${carpim}'dir ve Sayı 4'e bölündüğünde sonuç ${bolum}'dir.`;
+    document.getElementById("sonuclar").innerHTML = `Redüksiyon Katsayısı, Ana Pano Talep Gücü ve Ana Kolon Kablo Uzunluğu çarpımı ${carpim}'dir ve mm2'e bölündüğünde sonuç ${bolum}'dir.`;
     
 }
 
