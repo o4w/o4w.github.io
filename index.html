@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hesaplama Örneği</title>
+    <title>e1 e2 e3 hesaplama comu</title>
     <!-- Bootstrap CDN ekleniyor -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
+	  <h1>YY</h1>
 	<div class="container">
-		<h1 class="my-5">Hesaplama Örneği</h1>
+		<h1 class="my-5">%e1</h1>
 		<form>
 		  <div class="form-group">
 			<label for="sayi1">Redüksiyon Katsayısı:</label>
@@ -25,11 +26,78 @@
 			<label for="sayi4">Ana Kolon Kablo Kesiti (mm²):</label>
 			<input type="number" class="form-control" id="sayi4" name="sayi4">
 		  </div>
-		  <button type="button" class="btn btn-primary btn-block mb-3" onclick="sonuc()">Hesapla</button>
+		  <button type="button" class="btn btn-primary btn-block mb-3" onclick="hesapla()">Hesapla</button>
 		</form>
-		<div id="sonuc"></div>
+		<div id="sonuclar"></div>
 	  </div>
 
+	  <div class="container">
+		<h1 class="my-5">%e2</h1>
+		<form>
+		  <div class="form-group">
+			<label for="sayi5">Redüksiyon Katsayısı:</label>
+			<input type="number" class="form-control" id="e1" name="e1">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi6">Tali Pano Talep Gücü (kw):</label>
+			<input type="number" class="form-control" id="e2" name="e2">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi7">Tali Pano Kolon Kablo Uzunluğu (metre):</label>
+			<input type="number" class="form-control" id="e3" name="e3">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi8">Tali Pano Kablo Kesiti (mm²):</label>
+			<input type="number" class="form-control" id="e4" name="e4">
+		  </div>
+		  <button type="button" class="btn btn-primary btn-block mb-3" onclick="hesapla2()">Hesapla</button>
+		</form>
+		<div id="sonuclar2"></div>
+	  </div>
+
+
+	  <div class="container">
+		<h1 class="my-5">%e3</h1>
+		<form>
+		  <div class="form-group">
+			<label for="sayi1">Redüksiyon Katsayısı:</label>
+			<input type="number" class="form-control" id="e5" name="e5">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi2">Linye Talep Gücü (kw):</label>
+			<input type="number" class="form-control" id="e6" name="e6">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi3">Linye Hattı Kablo Uzunluğu (metre):</label>
+			<input type="number" class="form-control" id="e7" name="e7">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi4">Linye Hattı Kablo Kesiti (mm²):</label>
+			<input type="number" class="form-control" id="e8" name="e8">
+		  </div>
+		  <button type="button" class="btn btn-primary btn-block mb-3" onclick="hesapla3()">Hesapla</button>
+		</form>
+		<div id="sonuclar3"></div>
+	  </div>
+
+	  <div class="container">
+
+		<h1 class="my-5">%e1 %e2 %e3 Toplamı</h1>
+		<div class="form-group">
+			<label for="sayi1">%e1:</label>
+			<input type="number" class="form-control" id="e5" name="e5">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi1">%e2:</label>
+			<input type="number" class="form-control" id="e5" name="e5">
+		  </div>
+		  <div class="form-group">
+			<label for="sayi1">%e3:</label>
+			<input type="number" class="form-control" id="e5" name="e5">
+		  </div>
+		  <button type="button" class="btn btn-primary btn-block mb-3" onclick="hesapla3()">Hesapla</button>
+	  </div>
+	  <div class="my-10"></div> 
     
     <!-- Bootstrap CDN ekleniyor -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
