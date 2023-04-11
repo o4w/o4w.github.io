@@ -37,7 +37,7 @@ function hesapla2(){
 
     //sonuc
 
-    document.getElementById("sonuclar2").innerHTML = `Sayı 1, Sayı 2 ve Sayı 3'ün çarpımı ${carpim2}'dir ve Sayı 4'e bölündüğünde sonuç ${bolum2}'dir.`;
+    document.getElementById("sonuclar2").innerHTML = `%e2 ${bolum2}'dir.`;
 }
 
 
@@ -49,7 +49,7 @@ function hesapla3(){
     const  e6 = Number(document.getElementById("e6").value);
     const  e7 = Number(document.getElementById("e7").value);
     const  e8 = Number(document.getElementById("e8").value);
-    const roundedNum = Math.round(num);
+   
     //carpma 
 
     const carpim3 = e5 * e6 * e7;
@@ -60,5 +60,5 @@ function hesapla3(){
 
     //sonuc
 
-    document.getElementById("sonuclar3").innerHTML = `Sayı 1, Sayı 2 ve Sayı 3'ün çarpımı ${carpim3}'dir ve Sayı 4'e bölündüğünde sonuç ${bolum4}'dir.`;
+    document.getElementById("sonuclar3").innerHTML = `%e3 ${bolum4}'dir.`;
 }
