@@ -15,7 +15,7 @@ function hesapla() {
    
 
     // sonuçları göster
-    document.getElementById("sonuclar").innerHTML = `Redüksiyon Katsayısı, Ana Pano Talep Gücü ve Ana Kolon Kablo Uzunluğu çarpımı ${carpim}'dir ve mm2'e bölündüğünde sonuç ${bolum}'dir.`;
+    document.getElementById("sonuclar").innerHTML = ` %e1 ${bolum}'dir.`;
     
 }
 
