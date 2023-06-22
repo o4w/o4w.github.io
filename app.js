@@ -69,5 +69,5 @@ function hesapla() {
     var ilkKisim = girilenDeger <= 8000 ? (girilenDeger * 0.6) : (8000 * 0.6);
     var ikinciKisim = girilenDeger <= 8000 ? 0 : ((girilenDeger - 8000) * 0.4);
     var toplam = ilkKisim + ikinciKisim;
-    document.getElementById("sonuc").innerHTML = "Sonuç: " + toplam;
+    document.getElementById("sonuc2").innerHTML = "Sonuç: " + toplam;
   }
