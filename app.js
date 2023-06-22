@@ -62,3 +62,12 @@ function hesapla3(){
 
     document.getElementById("sonuclar3").innerHTML = `%e3 ${bolum4}'dir.`;
 }
+
+
+function hesapla() {
+    var girilenDeger = parseInt(document.getElementById("girilenDeger").value);
+    var ilkKisim = girilenDeger <= 8000 ? (girilenDeger * 0.6) : (8000 * 0.6);
+    var ikinciKisim = girilenDeger <= 8000 ? 0 : ((girilenDeger - 8000) * 0.4);
+    var toplam = ilkKisim + ikinciKisim;
+    document.getElementById("sonuc").innerHTML = "Sonuç: " + toplam;
+  }
